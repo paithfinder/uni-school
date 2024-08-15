@@ -1,0 +1,16 @@
+{
+    "id": "piaoyi-dropdownMenu",
+    "name": "piaoyi-dropdownMenu下拉菜单",
+    "displayName": "piaoyi-dropdownMenu下拉菜单",
+    "version": "1.0.2",
+    "description": "少有的dropdownMenu 下拉菜单，自定义数据，使用简单",
+    "keywords": [
+        "dropdownMenu",
+        "下拉菜单",
+        "自定义数据",
+        "动画"
+    ],
+    "dcloudext": {
+        "type": "component-vue"
+    }
+}

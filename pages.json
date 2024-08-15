@@ -1,0 +1,188 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "校缘易"
+      }
+    },
+    {
+      "path": "pages/lauch/index",
+      "style": {
+        "navigationBarTitleText": "发布"
+      }
+    },
+    {
+      "path": "pages/chat/index",
+      "style": {
+        "navigationBarTitleText": "聊天"
+      }
+    },
+    {
+      "path": "pages/person/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "subPackage/sub_home_pages/",
+      "pages": [
+        {
+          "path": "buy/index",
+          "style": {
+            "navigationBarTitleText": "物品代买"
+          }
+        },
+
+        {
+          "path": "goods/index",
+          "style": {
+            "navigationBarTitleText": "快递代取"
+          }
+        },
+        {
+          "path": "file/index",
+          "style": {
+            "navigationBarTitleText": "文件代打"
+          }
+        },
+        {
+          "path": "luggage/index",
+          "style": {
+            "navigationBarTitleText": "行李代运"
+          }
+        },
+        {
+          "path": "run_others/index",
+          "style": {
+            "navigationBarTitleText": "其他"
+          }
+        },
+        {
+          "path": "login/index",
+          "style": {
+            "navigationBarTitleText": "填写信息"
+          }
+        },
+        {
+          "path": "search/index",
+          "style": {
+            "navigationBarTitleText": "查询订单"
+          }
+        },
+        {
+          "path": "detailRun/index",
+          "style": {
+            "navigationBarTitleText": "详情"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackage/sub_list_pages/",
+      "pages": [
+        {
+          "path": "list_detail/list_detail",
+          "style": {
+            "navigationBarTitleText": "订单详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "list_feedback/list_feedback",
+          "style": {
+            "navigationBarTitleText": "订单反馈",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackage/sub_trade_pages/",
+      "pages": [
+        {
+          "path": "trade/index",
+          "style": {
+            "navigationBarTitleText": "跑腿交易订单",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackage/sub_ershou_pages/",
+      "pages": [
+        {
+          "path": "ershou/index",
+          "style": {
+            "navigationBarTitleText": "二手交易订单",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackage/sub_person_pages/",
+      "pages": [
+        {
+          "path": "message/index",
+          "style": {
+            "navigationBarTitleText": "消息通知",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    }
+  ],
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    // "iconfontSrc":"static/iconfont.ttf", // app tabbar 字体.ttf文件路径 app 3.4.4+
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/image/tabBar/首页默认.png",
+        "selectedIconPath": "/static/image/tabBar/首页.png"
+      },
+      {
+        "pagePath": "pages/lauch/index",
+        "text": "发布",
+        "iconPath": "/static/image/tabBar/发布默认.png",
+        "selectedIconPath": "/static/image/tabBar/发布.png"
+      },
+      {
+        "pagePath": "pages/chat/index",
+        "text": "聊天",
+        "iconPath": "/static/image/tabBar/聊天默认.png",
+        "selectedIconPath": "/static/image/tabBar/聊天.png"
+      },
+
+      {
+        "pagePath": "pages/person/index",
+        "text": "我的",
+        "iconPath": "/static/image/tabBar/个人默认.png",
+        "selectedIconPath": "/static/image/tabBar/个人.png"
+      }
+    ]
+  },
+
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-school",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "default"
+  },
+  "uniIdRouter": {}
+}
